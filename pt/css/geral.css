@@ -1,0 +1,51 @@
+body
+{
+	background-color: #000;
+	color: yellow;
+}
+
+@font-face
+{
+	font-family: "RalewayLight";
+	src: url("Raleway-Light.ttf") format("truetype");
+}
+
+@font-face
+{
+	font-family: "RalewayExtraBold";
+	src: url("Raleway-ExtraBold.ttf") format("truetype");
+}
+
+*
+{ font-family: "RalewayLight"; }
+
+.btn-optdesaster
+{
+	display: inline-block;
+  position: relative;
+}
+
+.btn-optdesaster figcaption
+{
+	position: absolute;
+  top: 10px;
+  left: 10px;
+	color: white;
+	font-weight: bold;
+  /*text-shadow: 0 0 5px black;*/
+}
+
+.tit-welcome
+{ font-family: "RalewayExtraBold" }
+
+.tit-dest
+{ color: #e6b800; }
+
+.campo-bottom
+{
+	display: block;
+	position: fixed;
+	bottom: 70px;
+	right: 20px;
+	z-index: 1000;
+}

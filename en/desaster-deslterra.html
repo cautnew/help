@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="css/geral.css">
+  <link type="text/css" rel="stylesheet" href="css/sticky-footer-navbar.css">
+
+  <title>Deslizamento de terra - Help!</title>
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="home.html">Help!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a class="nav-link" href="home.html">Desastres possíveis</a></li>
+        <li class="nav-item"><a class="nav-link" href="montabp.html">Montar meu kit</a></li>
+      </ul>
+      <ul class="navbar-nav"><li class="nav-item mx-3"><a class="nav-link" href="../en/home.html">EN</a></li></ul>
+    </div>
+  </nav>
+</header>
+
+<main role="main" class="container">
+  <div class="text-center">
+    <h3 class="tit-dest">Em caso de deslisamento de terra</h3>
+    <h4>Tente não se agitar muito!!!</h4>
+  </div>
+  <p>Você vai precisar de</p>
+  <ul class="list-group">
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="1.30" id="pricoisa" name="pricoisa" value="1">
+        <label for="pricoisa" class="custom-control-label">Primeira coisa</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.30" id="segcoisa" name="segcoisa" value="1">
+        <label for="segcoisa" class="custom-control-label">Segunda coisa</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.22" id="tercoisa" name="tercoisa" value="1">
+        <label for="tercoisa" class="custom-control-label">Terceira coisa</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.52" id="quacoisa" name="quacoisa" value="1">
+        <label for="quacoisa" class="custom-control-label">Quarta coisa</label>
+      </div>
+    </li>
+  </ul>
+</main>
+
+<footer class="footer"><div class="container">
+  <span class="text-muted">Help! &copy; 2018</span> - <a class="text-warning" href="about.html">Sobre</a> | <a class="text-warning" href="credits.html">Créditos</a></div>
+</footer>
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/contaPeso.js"></script>
+<script src="js/decimalAdjuste.js"></script>
+
+<script>
+$( document ).ready( function()
+{ $( ".btn-item-bp" ).click( clickContaPeso ); } );
+</script>
+</body>
+</html>

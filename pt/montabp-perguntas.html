@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="css/geral.css">
+  <link type="text/css" rel="stylesheet" href="css/sticky-footer-navbar.css">
+
+  <title>Alagamento - Help!</title>
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="home.html">Help!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="home.html">Desastres possíveis</a></li>
+        <li class="nav-item active"><a class="nav-link" href="montabp.html">Montar meu kit</a></li>
+      </ul>
+      <ul class="navbar-nav"><li class="nav-item mx-3"><a class="nav-link" href="../en/home.html">EN</a></li></ul>
+    </div>
+  </nav>
+</header>
+
+<main role="main" class="container">
+  <div class="text-center"><h3 class="tit-dest">Confira os ítens para seu kit</h3></div>
+
+  <h4>Garanta ter tudo isso <small>confira todos</small></h4>
+  <div class="campo-bottom bg-dark p-2 text-white" style="max-width: 80%;">
+    Levando <span id="cp-peso" class="badge badge-primary rounded">0.0KG</span><br>
+    <span style="font-size: 11px; border-radius: 3px; padding: 3px; background-color: #ff3300;">Lembre-se que uma pessoa deve carregar no máximo 10% do seu peso.</span>
+  </div>
+  <ul class="list-group mb-3">
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="1" id="mochilaimp" name="mochilaimp" value="1">
+        <label for="mochilaimp" class="custom-control-label">Mochila impermeável</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="6" id="aguamineral" name="aguamineral" value="1">
+        <label for="aguamineral" class="custom-control-label">Água mineral com prazo de validade longo (Recomendamos 6 Litros)</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.75" id="comida3dias" name="comida3dias" value="1">
+        <label for="comida3dias" class="custom-control-label">Comida não perecivel para 3 dias (latas)</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.4" id="lanterna" name="lanterna" value="1">
+        <label for="lanterna" class="custom-control-label">Lanterna</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.4" id="kitprimsoc" name="kitprimsoc" value="1">
+        <label for="kitprimsoc" class="custom-control-label">Kit de primeiros socorros</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.3" id="canivetemulti" name="canivetemulti" value="1">
+        <label for="canivetemulti" class="custom-control-label">Canivete multifuncional</label>
+      </div>
+    </li>
+  </ul>
+
+  <h4 class="my-4">Para a criança</h4>
+  <ul class="list-group list-crianca mb-3">
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.1" id="garrafa" name="garrafa" value="1">
+        <label for="garrafa" class="custom-control-label">Garrafas</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.5" id="formula" name="formula" value="1">
+        <label for="formula" class="custom-control-label">Fórmula</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.8" id="comidabebe" name="comidabebe" value="1">
+        <label for="comidabebe" class="custom-control-label">Comida para bebê</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.5" id="fraldasbebe" name="fraldasbebe" value="1">
+        <label for="fraldasbebe" class="custom-control-label">Fraldas (para 5 dias)</label>
+      </div>
+    </li>
+  </ul>
+
+  <h4 class="my-4">Para o pet</h4>
+  <ul class="list-group list-pet mb-3">
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.01" id="coleiraident" name="coleiraident" value="1">
+        <label for="coleiraident" class="custom-control-label">Coleira com identificação</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.50" id="comidapet" name="comidapet" value="1">
+        <label for="comidapet" class="custom-control-label">Comida para o pet</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.06" id="tigela" name="tigela" value="1">
+        <label for="tigela" class="custom-control-label">Tigela</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.8" id="caixapet" name="caixapet" value="1">
+        <label for="caixapet" class="custom-control-label">Caixa transportadora</label>
+      </div>
+    </li>
+  </ul>
+
+  <h4 class="my-4">Também importantes</h4>
+  <ul class="list-group mb-3">
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.1" id="baterias" name="baterias" value="1">
+        <label for="baterias" class="custom-control-label">Pilhas/baterias extras (verificar a validade)</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.9" id="radiopilha" name="radiopilha" value="1">
+        <label for="radiopilha" class="custom-control-label">Radio a pilha</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.2" id="sinalizador" name="sinalizador" value="1">
+        <label for="sinalizador" class="custom-control-label">Sinalizador</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.05" id="apito" name="apito" value="1">
+        <label for="apito" class="custom-control-label">Apito</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.05" id="mascara" name="mascara" value="1">
+        <label for="mascara" class="custom-control-label">Máscara de gás</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.1" id="sacolixo" name="sacolixo" value="1">
+        <label for="sacolixo" class="custom-control-label">Saco de lixo</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.08" id="luvasdesc" name="luvasdesc" value="1">
+        <label for="luvasdesc" class="custom-control-label">Luvas descartáveis</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.08" id="alcoolgel" name="alcoolgel" value="1">
+        <label for="alcoolgel" class="custom-control-label">Álcool em gel</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.01" id="fosforoplast" name="fosforoplast" value="1">
+        <label for="fosforoplast" class="custom-control-label">Fósforos embalados em plastico</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.1" id="talheres" name="talheres" value="1">
+        <label for="talheres" class="custom-control-label">Talheres</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.5" id="abrelatas" name="abrelatas" value="1">
+        <label for="abrelatas" class="custom-control-label">Abridor de latas</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.4" id="coberalum" name="coberalum" value="1">
+        <label for="coberalum" class="custom-control-label">Cobertor de aluminio</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.01" id="coberalum" name="coberalum" value="1">
+        <label for="coberalum" class="custom-control-label">Medicamentos gerais (analgésicos, antiácidos, antitérmicos, etc.)</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.3" id="pomqueima" name="pomqueima" value="1">
+        <label for="pomqueima" class="custom-control-label">Pomada para queimadura</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.5" id="papelhig" name="papelhig" value="1">
+        <label for="papelhig" class="custom-control-label">Papel higiênico</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.8" id="cantil" name="cantil" value="1">
+        <label for="cantil" class="custom-control-label">Cantil</label>
+      </div>
+    </li>
+  </ul>
+  <h4 class="my-4">É bom ter</h4>
+  <ul class="list-group mb-3">
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.01" id="mapasimpressos" name="mapasimpressos" value="1">
+        <label for="mapasimpressos" class="custom-control-label">Mapas locais impressos</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.01" id="docplast" name="docplast" value="1">
+        <label for="docplast" class="custom-control-label">Documentos plastificados</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.3" id="mudaroupa" name="mudaroupa" value="1">
+        <label for="mudaroupa" class="custom-control-label">Muda de roupa</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.1" id="cremedental" name="cremedental" value="1">
+        <label for="cremedental" class="custom-control-label">Creme dental</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.05" id="escovadente" name="escovadente" value="1">
+        <label for="escovadente" class="custom-control-label">Escova de dentes</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.1" id="absorvente" name="absorvente" value="1">
+        <label for="absorvente" class="custom-control-label">Absorventes</label>
+      </div>
+    </li>
+    <li class="list-group-item bg-dark">
+      <div class="custom-control custom-checkbox btn-item-bp">
+        <input type="checkbox" class="custom-control-input item-bp" data-weight="0.1" id="dinheiro" name="dinheiro" value="1">
+        <label for="dinheiro" class="custom-control-label">Dinheiro vivo</label>
+      </div>
+    </li>
+  </ul>
+  <button class="btn btn-block btn-lg btn-warning my-5" id="btn-recomecar">Recomeçar</button>
+  <div style="clear:both;"><br></div>
+</main>
+
+<footer class="footer"><div class="container">
+  <span class="text-muted">Help! &copy; 2018</span> - <a class="text-warning" href="about.html">Sobre</a> | <a class="text-warning" href="credits.html">Créditos</a></div>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/cookies.js"></script>
+<script src="js/contaPeso.js"></script>
+<script src="js/decimalAdjuste.js"></script>
+
+<script>
+function confereRespostasAnteriores()
+{
+  let
+		decodedCookie = decodeURIComponent( document.cookie ),
+		ca = decodedCookie.split( ';' );
+
+	for( var i=0; i < ca.length; i++ )
+	{
+    let
+      c = ca[ i ],
+      campo = c.split( '=' )[ 0 ].trim();
+    console.log( campo );
+
+    $( 'input#' + campo ).attr( 'checked', true );
+	}
+}
+
+$( document ).ready( function()
+{
+  if( getCookie( 'possuicrianca' ) == '1' )
+  { $( '.list-crianca' ).show( 300 ); }
+  else
+  { $( '.list-crianca' ).hide(); }
+
+  if( getCookie( 'possuipet' ) == '1' )
+  { $( '.list-pet' ).show( 300 ); }
+  else
+  { $( '.list-pet' ).hide(); }
+
+  $( ".btn-item-bp" ).click( clickContaPeso );
+  $( ".btn-item-bp" ).click( updtCampoPeso );
+
+  $( '#btn-recomecar' ).click( function()
+  {
+    setCookie( 'possuicrianca', '' );
+    setCookie( 'possuipet', '' );
+    window.location = 'montabp.html';
+  } );
+
+  confereRespostasAnteriores();
+} );
+</script>
+</body>
+</html>
